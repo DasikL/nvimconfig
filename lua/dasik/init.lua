@@ -1,3 +1,3 @@
-require("dasik.remap")
-require("dasik.plugins")
 require("dasik.set")
+require("dasik.remap")
+require("dasik.lazy")
