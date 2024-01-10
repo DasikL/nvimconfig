@@ -56,10 +56,10 @@ require("lazy").setup({
         'nvimdev/dashboard-nvim',
         event = 'VimEnter',
         dependencies = { { 'nvim-tree/nvim-web-devicons' } }
-    }
-
-
-
+    },
+    {
+        "github/copilot.vim"
+    },
 })
 
 --Colorscheme

@@ -13,7 +13,7 @@ lspconfig.lua_ls.setup({
 })
 lspconfig.clangd.setup({
     on_attach = function (client, bufnr)
-       client.server_capabilities.signatureHelpProvider =false 
+       client.server_capabilities.signatureHelpProvider =false
        on_attach(client, bufnr)
     end,
     capabilities = capabilities
@@ -24,6 +24,16 @@ lspconfig.jdtls.setup({
 lspconfig.pyright.setup({
     capabilities = capabilities
 })
+lspconfig.html.setup({
+    capabilities = capabilities
+})
+lspconfig.cssls.setup({
+    capabilities = capabilities
+})
+lspconfig.vtsls.setup({
+    capabilities = capabilities
+})
+
 
 
 vim.api.nvim_create_autocmd('LspAttach', {
