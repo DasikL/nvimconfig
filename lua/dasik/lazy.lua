@@ -60,6 +60,16 @@ require("lazy").setup({
     {
         "github/copilot.vim"
     },
+    {
+        "nvimtools/none-ls.nvim"
+    },
+    {
+      "ThePrimeagen/vim-be-good"
+    },
+    {
+      "nvim-tree/nvim-tree.lua",
+      dependencies = {"nvim-tree/nvim-web-devicons"}
+    },
 })
 
 --Colorscheme
